@@ -8,6 +8,7 @@ import TourList from './components/tours/TourList';
 import {toursList} from './data'
 import SortInput from './components/sort-input/SortInput';
 import Banner from './components/banner/Banner';
+import NewsLetter from './components/news-letter/NewsLetter';
 
 function App() {
 // Algorithm For Pagination
@@ -33,6 +34,7 @@ function App() {
     <Pagination pages={pages} currentPage={currentPage} setCurrentPage={setCurrentPage} />
 
     <Banner />
+    <NewsLetter />
     </div>
   );
 }
