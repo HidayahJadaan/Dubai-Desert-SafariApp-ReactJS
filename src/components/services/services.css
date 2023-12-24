@@ -1,0 +1,63 @@
+.services{
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.service-item{
+    border: 1px solid gray;
+    border-radius: 5rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.service-icon{
+    margin-right: 5px;
+}
+.service-icon.ri-image-fill
+{
+   color: gray;
+}
+
+.service-icon.ri-team-line
+{
+   color: rgb(52,2,96);
+}
+.service-icon.ri-community-fill
+{
+   color: var(--orange-color);
+}
+.service-icon.ri-globe-fill
+{
+   color: #10000e;
+}
+
+@media (max-width: 920px) {
+    .service-item{
+        padding: 0.5rem 1rem;
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 720px) {
+   .services{
+    flex-wrap: wrap;
+   }
+   .service-item{
+    padding: 1rem;
+    font-size: 1rem;
+    width: 45%;
+    margin-bottom: 1.2rem;
+   }
+}
+
+@media (max-width: 520px) {
+  
+    .service-item{
+     font-size: 1rem;
+     width: 90%;
+   text-align: center;
+    }
+ }
